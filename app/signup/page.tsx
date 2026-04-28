@@ -132,7 +132,7 @@ export default function SignUpPage() {
             setLoading(true);
             signIn("github", { callbackUrl: "/" });
           }}
-          className="w-full flex items-center justify-center gap-2 bg-black border border-gray-700 py-2 rounded-lg hover:bg-[#111] transition"
+          className="w-full flex items-center justify-center gap-2 bg-black border text-white border-gray-700 py-2 rounded-lg hover:bg-[#686666] transition"
         >
           {loading ? "Redirecting..." : "Continue with GitHub"}
         </button>
